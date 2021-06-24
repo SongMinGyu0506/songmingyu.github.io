@@ -1,10 +1,8 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: Developer footprint
+author: songmingyu0506
+email: ggp04114@naver.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  항상 생각하고 발전된 모습을 추구합니다.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
