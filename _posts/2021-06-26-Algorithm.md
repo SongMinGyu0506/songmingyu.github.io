@@ -7,6 +7,8 @@ categories: Algorithm Python Programmers
 
 __임시저장__
 
+
+
 ```python
 def solution(answers):
     result = []
