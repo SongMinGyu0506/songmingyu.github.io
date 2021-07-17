@@ -19,7 +19,7 @@ Spring Framework에서 제공하는 Rest 엔드포인트 호출 방식, HTTP에�
 
 ## 메소드 설명
 |메소드명|파라미터|설명|
-|---|---|---|
+|------|:----:|------|
 |getForObject|String url,Class<T> responseType,Object... uriVariables|객체로 GET 결과 반환|
 |getForEntity|String url,Class<T> responseType,Object... uriVariables|ResponseEntity로 Get 결과 반환|
 |postForLocation|String url,@Nullable Object request,Class<T> responseType,Object... uriVariables|헤더에 저장된 URL을 결과로 반환|
