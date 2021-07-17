@@ -12,10 +12,10 @@ Java Library의 일종으로, Getter,Setter 그리고 toString ... 여러가지 
 
 ## 사용방법
 ### Original JAVA
-Lombok.jar 다운로드 후
+Lombok.jar 다운로드 후  
 ```javac -cp lombok.jar -p lombok.jar ...```
 ### Maven
-pom에 추가
+pom에 추가  
 ```XML
 <dependencies>
 	<dependency>
@@ -27,7 +27,7 @@ pom에 추가
 </dependencies>
 ```
 ### Gradle
-build.gradle에 추가
+build.gradle에 추가  
 ```gradle
 repositories {
 	mavenCentral()
@@ -45,7 +45,7 @@ dependencies {
 ## 주로 사용하는 어노테이션들
 ### @Getter/@Setter
 클래스의 Getter/Setter를 자동으로 작성  
-클래스나 해당 클래스의 속성에 추가
+클래스나 해당 클래스의 속성에 추가  
 ```JAVA
 public class notLombok {
     private int test1;
@@ -76,7 +76,7 @@ public class UsingLombok {
 ```
 ### @ToString
 toString() 메소드를 오버라이드해서 각각의 필드를 출력    
-
+  
 ```includeFieldNames= [ true| false] (기본값 : true)```   
 일반적으로 각 필드에 대한 이름도 출력하나 false시 출력하지 않는다.  
 
@@ -86,7 +86,7 @@ toString() 메소드를 오버라이드해서 각각의 필드를 출력
 ```callSuper= [ call| skip| warn] (기본값 : 건너 뛰기)```  
 슈퍼 클래스의 필드까지 포함 여부 확인  
 
-__Vanila Java__
+__Vanila Java__   
 ```Java
 import java.util.Arrays;
 
@@ -120,7 +120,7 @@ public class ToStringExample {
 }
 ```
 
-__Using Lombok__
+__Using Lombok__  
 ```java
 import lombok.ToString;
 
@@ -174,7 +174,7 @@ User user3 = new User(1L, "asdf", "1234", null); //All
 ```
 
 ### @Builder
-생성자를 생성할 때, Builder 패턴을 이용하여 생성
+생성자를 생성할 때, Builder 패턴을 이용하여 생성  
 ```java
 import lombok.Builder;
 import lombok.Singular;
@@ -188,7 +188,7 @@ public class BuilderExample {
   @Singular private Set<String> occupations;
 }
 ```
-
+  
 ```java
 import java.util.Set;
 
