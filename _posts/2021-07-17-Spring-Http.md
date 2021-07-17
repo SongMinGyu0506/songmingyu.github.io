@@ -18,13 +18,13 @@ HttpEntity 클래스는 HttpHeader와 HttpBody를 포함하는 클래스.
 Spring Framework에서 제공하는 Rest 엔드포인트 호출 방식, HTTP에서 주로 사용하는 CRUD(GET POST PUT DELETE)를 사용하기 쉽도록 만들어짐
 
 ## 메소드 설명
-|메소드명|파라미터|설명|
-|------|:----:|------|
-|getForObject|String url,Class<T> responseType,Object... uriVariables|객체로 GET 결과 반환|
-|getForEntity|String url,Class<T> responseType,Object... uriVariables|ResponseEntity로 Get 결과 반환|
-|postForLocation|String url,@Nullable Object request,Class<T> responseType,Object... uriVariables|헤더에 저장된 URL을 결과로 반환|
-|postForObject|String url,@Nullable Object request,Class<T> responseType,Object... uriVariables|객체로 POST 요청 결과 반환|
-|postForEntity|String url,@Nullable Object request,Class<T> responseType,Object... uriVariables|ResponseEntity로 POST 요청 결과 반환|
+|메소드명|파라미터|설명|  
+|------|:----:|------|  
+|getForObject|String url,Class<T> responseType,Object... uriVariables|객체로 GET 결과 반환|  
+|getForEntity|String url,Class<T> responseType,Object... uriVariables|ResponseEntity로 Get 결과 반환|  
+|postForLocation|String url,@Nullable Object request,Class<T> responseType,Object... uriVariables|헤더에 저장된 URL을 결과로 반환|  
+|postForObject|String url,@Nullable Object request,Class<T> responseType,Object... uriVariables|객체로 POST 요청 결과 반환|  
+|postForEntity|String url,@Nullable Object request,Class<T> responseType,Object... uriVariables|ResponseEntity로 POST 요청 결과 반환|  
 
 
 
