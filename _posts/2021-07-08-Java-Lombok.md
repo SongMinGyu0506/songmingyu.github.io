@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Java Lombok"
+date:   2021-06-27 +0900
+categories: Java Spring
+---
+
 # Lombok 정리
 
 ## Lombok??
